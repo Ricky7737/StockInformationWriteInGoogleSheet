@@ -1,12 +1,21 @@
 文件說明
 
 1.爬蟲測試 
-程式碼檔名 : Beautysoup.ipynb
-
+    程式碼檔名 : Beautysoup.ipynb
     使用套件
       1.bs4 BeautifulSoup (主要用來爬取網頁資料)
       2.requests 當伺服器接收到 request Http後，會回傳一個Response物件
       3.lxml 為解析回傳的資料
       4.pandas 將回傳的資料建立一個 dataframe
       證交所大盤三大法人買賣超資料來源 : https://www.twse.com.tw/rwd/zh/fund/BFI82U?response=html
+
+2.將資料寫入 GoogleSheet 
+    前置作業資料來源 : https://www.learncodewithmike.com/2021/06/pandas-and-google-sheets.html
+    重點整理 =>
+      1. 啟用 GoogleSheets API
+      2. 建立 GoogleSheets 憑證
+      3. 建立試算表
+      4. Pandas 寫入 GoogleSheet 試算表
+
+
 
