@@ -1,1 +1,2 @@
 # StockInformationWriteInGoogleSheet
+本小型專案為將正交所、櫃買中心、期交所期貨以及選擇權透過 beautifulsoup 套件抓取資料後，透過處理寫入GoogleSheet
