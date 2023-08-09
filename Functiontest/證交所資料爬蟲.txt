@@ -15,7 +15,8 @@
 
 2.將資料寫入 GoogleSheet 
     程式碼檔名 : WriteInGoogleSheepTest.ipynb
-    前置作業資料來源 : https://hackmd.io/@Yun-Cheng/GoogleSheets
+    前置作業資料 : https://hackmd.io/@Yun-Cheng/GoogleSheets
+    GoogleSheet使用Python 操作資料 : https://hackmd.io/@Yun-Cheng/GoogleSheets
 
     1. 重點整理 =>
         1. 啟用 GoogleSheets API
