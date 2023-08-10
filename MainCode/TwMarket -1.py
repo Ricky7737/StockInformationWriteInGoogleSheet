@@ -16,7 +16,7 @@ Taifex_OP_url = "https://www.taifex.com.tw/cht/3/callsAndPutsDateExcel"
 
 ### 2.建立GoogleSheet 連線 ###
 #建立金鑰連結
-KeyPath = r"E:\DataLearn\StockInformationWriteInGoogleSheet\Key\focal-healer-395312-477b0b18fc60.json"
+KeyPath = r"放自己的路徑"
 gc = pygsheets.authorize(service_account_file=KeyPath)
 #指定 google表單寫入的連結
 googlesheet_url = "https://docs.google.com/spreadsheets/d/1BEw9S1YL-AugmGNGMA3P9mPCz4fRRrPzHYMz9dkBE3k/edit?usp=sharing"
