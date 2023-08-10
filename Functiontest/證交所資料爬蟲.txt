@@ -13,6 +13,10 @@
 
         證交所大盤三大法人買賣超資料來源 : https://www.twse.com.tw/rwd/zh/fund/BFI82U?response=html
 
+    台指期貨與選擇權
+        1. 台指期貨資料來源 : https://www.taifex.com.tw/cht/3/futContractsDateExcel
+        2. 台指選擇權資料來源 : https://www.taifex.com.tw/cht/3/callsAndPutsDateExcel
+
 2.將資料寫入 GoogleSheet 
     程式碼檔名 : WriteInGoogleSheepTest.ipynb
     前置作業資料 : https://hackmd.io/@Yun-Cheng/GoogleSheets
@@ -28,5 +32,8 @@
         套件下載指令
         1. pygheet
             pip install pygsheet
+
+3.dataframe 處理方法
+    資料參考 : https://yanwei-liu.medium.com/python-pandas%E4%BD%BF%E7%94%A8%E7%AD%86%E8%A8%98-a4682e254d90
 
 
