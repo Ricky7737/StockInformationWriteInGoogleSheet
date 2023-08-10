@@ -2,4 +2,4 @@ Google表單展示 :
 https://docs.google.com/spreadsheets/d/1BEw9S1YL-AugmGNGMA3P9mPCz4fRRrPzHYMz9dkBE3k/edit?usp=sharing
 
 程式檔說明 =>
-  1.TwMarket.py => 主要處理三大法人買賣超、台指期法人口數 與 法人選擇權
+  1.TwMarket_1.py => 主要處理三大法人買賣超、台指期法人口數 與 法人選擇權
