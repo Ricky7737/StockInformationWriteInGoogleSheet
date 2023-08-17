@@ -1,6 +1,18 @@
 Google表單展示 : 
 https://docs.google.com/spreadsheets/d/1BEw9S1YL-AugmGNGMA3P9mPCz4fRRrPzHYMz9dkBE3k/edit?usp=sharing
 
-程式檔說明 =>
+1.程式檔說明 =>
   1. TwMarket_1.py => 主要處理三大法人買賣超、台指期法人口數 與 法人選擇權
   2. StockBuy - nokey.py => 主要處理上市上櫃外資投信買超排名
+
+2.autorun 檔案說明 =>
+  1. StockBuy.bat 與 TwMarket.bat 是用來分別執行 .py 檔案完成資料爬蟲與寫入
+  2. StockBuyBackRun.vbs 與 TwMarketBackRun.vbs 可以讓 .bat 檔在電腦背後運行不跳出 cmd 視窗
+
+3.實現每日自動執行 =>
+  請參考這篇資料 : https://titangene.github.io/article/set-up-windows-task-scheduler-to-periodically-execute-python-crawler.html
+  大概就是使用 windows 自動排程器來設定，完成每日時間自動執行檔案
+
+**** 另外要說明的是 ****
+1.證交所與期貨交易所的 大盤法人買賣超金額與期交所的期貨與選擇權網站更新時間都在下午 3:00左右，所以可以將對應的.vbs檔執行時間設定在下午 3:30左右
+2.而上市外資與投信買賣超資料更新時間要等到5點左右，上櫃的則是在3點左右，因此我將各股的資訊更新時間都設定在下午5:30左右
